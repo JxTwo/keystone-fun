@@ -1,0 +1,18 @@
+version: '3'
+services:
+    keystone:
+        image: testing-admin
+        ports:
+         - "3000:3000"
+        expose:
+         - "3000"
+        command: npm run-script start
+        links:
+         - mongodb
+    mongodb:
+        image: mongo
+        restart: always
+        ports:
+         - "27017:27017"
+        expose:
+         - "27017"

@@ -1,0 +1,48 @@
+.mainItem {
+    border: solid black 1px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.results .mainItem {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.results .mainItem div {
+    height: 150px;
+}
+
+.results .mainItem a {
+    text-decoration: none;
+    color: black;
+}
+
+.results .mainItem img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+form {
+    width: 50%;
+    height: 200px;
+    padding: 60px 0 0 0;
+    border: solid lightgray 1px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+form input {
+    font-size: 20px;
+}
+
+form input[type="submit"] {
+    width: 200px;
+    padding: 20px;
+}
